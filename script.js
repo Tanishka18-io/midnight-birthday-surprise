@@ -22,10 +22,10 @@ const birthdaySchedule = testMode
         birthday: new Date(nowAtStart + 40000)
     }
     : {
-        firstMessage: new Date("2026-10-16T23:00:00+05:30"),
-        secondMessage: new Date("2026-10-16T23:30:00+05:30"),
-        thirdMessage: new Date("2026-10-16T23:50:00+05:30"),
-        birthday: new Date("2026-10-17T00:00:00+05:30")
+        firstMessage: new Date("2026-11-16T23:00:00+05:30"),
+        secondMessage: new Date("2026-11-16T23:30:00+05:30"),
+        thirdMessage: new Date("2026-11-16T23:50:00+05:30"),
+        birthday: new Date("2026-11-17T00:00:00+05:30")
     };
 
 
