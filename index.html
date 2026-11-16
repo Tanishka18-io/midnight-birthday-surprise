@@ -1,0 +1,425 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For Yadav Ji ❤️</title>
+
+    <!-- Connect CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Beautiful fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Floating Background -->
+    <div class="hearts" id="hearts"></div>
+
+<!-- BACKGROUND MUSIC PLAYER -->
+
+<div id="music-player" class="music-player hidden">
+
+    <audio id="birthday-audio"
+           src="music/birthday-song.mp3"
+           loop>
+    </audio>
+
+    <button id="music-toggle" type="button">
+        ♫ Play the song which reminds me of you!
+    </button>
+
+</div>
+
+
+    <!-- MAIN COUNTDOWN SCREEN -->
+    <section id="welcome-screen" class="screen active">
+
+        <p class="small-heading">A LITTLE SURPRISE FOR My Special one</p>
+
+        <h1>Hey, Yadav Ji ❤️</h1>
+
+        <p class="intro">
+            I have something special planned for you.
+            But good things deserve a little waiting...
+            be patient and enjoy the countdown to your special moment!
+        </p>
+
+        <div class="countdown-box">
+            <p>Until your special moment</p>
+
+            <div id="countdown">
+                <div><span id="hours">00</span><small>Hours</small></div>
+                <div><span id="minutes">00</span><small>Minutes</small></div>
+                <div><span id="seconds">00</span><small>Seconds</small></div>
+            </div>
+        </div>
+
+        <h2 id="stage-title">A little patience, please...</h2>
+
+        <p id="stage-message">
+            Some surprises are worth waiting for.
+        </p>
+
+    </section>
+
+
+    <!-- 11:00 PM MESSAGE -->
+    <section id="message-11" class="screen hidden">
+
+        <div class="message-card">
+            <span class="sparkle">✨</span>
+
+            <h2>11:00 PM</h2>
+
+            <h1>Something About You...</h1>
+
+            <p>
+                Cutie, I just wanted to take a moment
+                to tell you how amazing you are.
+            </p>
+
+            <p>
+                Tonight, I just want you to know that
+                your existence makes a difference. ❤️
+            </p>
+        </div>
+
+    </section>
+
+
+    <!-- 11:30 PM MESSAGE -->
+    <section id="message-1130" class="screen hidden">
+
+        <div class="message-card">
+
+            <span class="sparkle">💗</span>
+
+            <h2>11:30 PM</h2>
+
+            <h1>Our Memories</h1>
+
+            <p>
+              the moments we shared, the laughter we had,the tears we shed, and the bond that grew between us.
+              but what matters most is that we were there for each other through it all, and that is something I will always cherish.
+            
+            </p>
+
+            <p>
+                The random conversations, silly jokes,
+                little arguments and unforgettable memories...
+                each one has its own place.
+            </p>
+
+            <p>And I wouldn't exchange those moments for anything.</p>
+
+        </div>
+
+    </section>
+
+
+    <!-- 11:50 PM MESSAGE -->
+    <section id="message-1150" class="screen hidden">
+
+        <div class="message-card">
+
+            <span class="sparkle">🌙</span>
+
+            <h2>11:50 PM</h2>
+
+            <h1>Just 10 More Minutes...</h1>
+
+            <p>
+                Yadav Ji, your special day is almost here.
+            </p>
+
+            <p>
+                I hope this new chapter brings you endless happiness,
+                beautiful opportunities and everything
+                your heart has been wishing for.
+            </p>
+
+            <h2>10... 9... 8...</h2>
+
+            <p>Get ready for your midnight surprise! ❤️</p>
+
+        </div>
+
+    </section>
+
+
+    <!-- MIDNIGHT BIRTHDAY REVEAL -->
+    <section id="birthday-screen" class="screen hidden">
+
+        <div class="birthday-card">
+
+            <p class="small-heading">TODAY IS ALL ABOUT YOU</p>
+
+            <h1>Happy Birthday</h1>
+
+            <h2>Adarsh Raj Yadav</h2>
+
+            <h3>My Yadav Ji ❤️</h3>
+
+            <p class="birthday-message">
+                Another year, another chapter,
+                and another chance for life to surprise you
+                with beautiful things.
+            </p>
+
+            <p>
+                May your smile never fade,
+                your dreams find their way to reality,
+                and your heart always find reasons to be happy.
+            </p>
+
+            <p>
+                may you achieve all your goals and aspirations,
+                 and may this year be filled with love, laughter,
+                  and unforgettable memories.
+            </p>
+
+            <button id="memory-button">
+                Open Our Memory Lane 💌
+            </button>
+
+        </div>
+
+    </section>
+
+
+    
+<!-- PERSONALIZED MEMORY LANE -->
+
+<section id="memory-screen" class="screen hidden">
+
+    <div class="memory-container">
+
+        <p class="small-heading">
+            A JOURNEY THROUGH OUR MOMENTS
+        </p>
+
+        <h1>Our Memory Lane ❤️</h1>
+
+        <p class="memory-intro">
+            Some moments become memories, and some memories
+            become little treasures we carry forever.
+        </p>
+
+        <div class="memory-grid">
+
+            <!-- MEMORY 1 -->
+
+            <div class="memory-item">
+
+                <div class="polaroid">
+                    <img src="images/beginning.jpg"
+                         alt="Our first meeting"
+                         onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+
+                    <div class="photo-fallback">📸 Add your photo</div>
+
+                    <p class="photo-date">THE BEGINNING</p>
+                </div>
+
+                <h3>Our Beginning 🌸</h3>
+
+                <p>
+                    Every story has a beginning.
+                    Ours started with a little moment
+                    that became a beautiful memory.
+                </p>
+
+            </div>
+
+
+            <!-- MEMORY 2 -->
+
+            <div class="memory-item">
+
+                <div class="polaroid">
+                    <img src="images/conversations.jpg"
+                         alt="Our calls and conversations"
+                         onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+
+                    <div class="photo-fallback">📸 Add your photo</div>
+
+                    <p class="photo-date">OUR LITTLE TALKS</p>
+                </div>
+
+                <h3>Calls & Conversations ☎️</h3>
+
+                <p>
+                    From random conversations to long calls,
+                    it is amazing how little talks
+                    can turn into favourite memories.
+                </p>
+
+            </div>
+
+
+            <!-- MEMORY 3 -->
+
+            <div class="memory-item">
+
+                <div class="polaroid">
+                    <img src="images/funny-moments.jpg"
+                         alt="Our funniest moments"
+                         onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+
+                    <div class="photo-fallback">📸 Add your photo</div>
+
+                    <p class="photo-date">LOTS OF LAUGHTER</p>
+                </div>
+
+                <h3>Our Funny Moments 😂</h3>
+
+                <p>
+                    The silly jokes, random teasing
+                    and those moments when laughing
+                    was the only thing that mattered.
+                </p>
+
+            </div>
+
+
+            <!-- MEMORY 4 -->
+
+            <div class="memory-item">
+
+                <div class="polaroid">
+                    <img src="images/special-moment.jpg"
+                         alt="A special memory"
+                         onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+
+                    <div class="photo-fallback">📸 Add your photo</div>
+
+                    <p class="photo-date">A TREASURED MOMENT</p>
+                </div>
+
+                <h3>A Special Moment 💗</h3>
+
+                <p>
+                    Some moments are difficult to explain,
+                    but easy to remember.
+                    This one will always be special.
+                </p>
+
+            </div>
+
+        </div>
+
+        <div class="memory-ending">
+
+            <h2>And Our Story Continues...</h2>
+
+            <p>
+                Not every beautiful memory needs a perfect picture.
+                Sometimes, the feeling itself is the memory.
+            </p>
+
+        </div>
+
+        <button id="letter-button">
+            One Last Thing For You 💌
+        </button>
+
+    </div>
+
+</section>
+
+
+    <!-- PERSONAL LETTER -->
+
+<!-- SECRET BIRTHDAY LETTER -->
+
+<section id="letter-screen" class="screen hidden">
+
+    <div class="letter-card">
+
+        <p class="small-heading">
+            A LITTLE SOMETHING FROM MY HEART
+        </p>
+
+        <h1>One Last Surprise...</h1>
+
+        <p>
+            Yadav Ji, there is something I wanted
+            to tell you personally.
+        </p>
+
+        <div class="envelope-container">
+
+            <div class="envelope" id="envelope">
+
+                <div class="envelope-flap"></div>
+
+                <div class="envelope-heart">❤️</div>
+
+                <div class="envelope-text">
+                    For Yadav Ji
+                </div>
+
+            </div>
+
+        </div>
+
+        <button id="open-envelope" type="button">
+            Open Your Secret Letter 💌
+        </button>
+
+        <!-- HIDDEN LETTER -->
+
+        <div id="letter-content" class="letter-content hidden">
+
+            <h1>Dear Yadav Ji,</h1>
+
+            <p>
+                I don't know how to put every feeling
+                into words, but I wanted to make
+                this day a little more special for you.
+            </p>
+
+            <p>
+                you were always my source of happiness and inspiration. 
+                Your presence in my life has made
+                 it brighter and more meaningful.
+            </p>
+
+            <p>
+                I genuinely wish that life gives you
+                every reason to smile. Keep growing,
+                keep shining and never stop believing
+                in yourself.
+            </p>
+
+            <p>
+                I hope this new year of your life
+                brings you happiness, success and
+                countless beautiful memories.
+            </p>
+
+            <h2>Happy Birthday Once Again! ❤️</h2>
+
+            <p class="signature">
+                With lots of wishes,<br>
+                Someone who wishes the best for you.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+    <!-- Connect JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+</html>
